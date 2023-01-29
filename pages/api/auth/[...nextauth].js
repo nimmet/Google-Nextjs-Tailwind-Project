@@ -13,6 +13,6 @@ export default NextAuth({
   ],
   secret:process.env.SECRET,
   pages: {
-    signin: "/auth/signin",
+    signIn: "/auth/signin",
   },
 });

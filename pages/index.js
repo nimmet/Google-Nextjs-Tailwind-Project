@@ -3,6 +3,7 @@ import Image from 'next/image'
 import { Inter } from '@next/font/google'
 import Header from '@/components/Header'
 import { SearchIcon,MicrophoneIcon } from '@heroicons/react/solid'
+import Footer from '@/components/Footer'
 
 
 
@@ -49,7 +50,8 @@ export default function Home() {
     </form>
     
     {/* Footer */}
-    
+
+    <Footer  />
     </div>
   )
 }
